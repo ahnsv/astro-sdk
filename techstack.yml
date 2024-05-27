@@ -1,0 +1,665 @@
+repo_name: ahnsv/astro-sdk
+report_id: 56f2017b3efba1e9e69cf4d689b1c34a
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-27T04:25:51+00:00'
+requested_by: Lee-W
+provider: github
+branch: main
+detected_tools_count: 28
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/example_dags/demo_parse_directory/homes_example/agg_homes.sql
+  detection_source: python-sdk/example_dags/demo_parse_directory/homes_example/agg_homes.sql
+  last_updated_by: Daniel Imberman
+  last_updated_on: 2022-03-01 16:34:54.000000000 Z
+- name: Airflow
+  description: A platform to programmaticaly author, schedule and monitor data pipelines,
+    by Airbnb
+  website_url: http://airbnb.io/projects/airflow/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Workflow Manager
+  image_url: https://img.stackshare.io/service/3130/airflow.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Kaxil Naik
+  last_updated_on: 2023-01-10 17:17:36.000000000 Z
+- name: Celery
+  description: Distributed task queue
+  website_url: http://www.celeryproject.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1075/celery.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-18 14:26:35.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Daniel Imberman
+  last_updated_on: 2022-03-13 23:20:39.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/.github/workflows/ci-astro-deploy.yml
+  detection_source: ".github/workflows/ci-astro-deploy.yml"
+  last_updated_by: Wei Lee
+  last_updated_on: 2023-06-28 06:29:57.000000000 Z
+- name: Kube Scheduler Simulator
+  description: A web-based simulator for the Kubernetes scheduler
+  website_url: https://github.com/kubernetes-sigs/kube-scheduler-simulator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/40256/default_df7a9401b75c698f117cfd205c6cb8a334f6cda6.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Tzu-ping Chung
+  last_updated_on: 2021-11-23 18:44:37.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  detection_source: python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  last_updated_by: Utkarsh Sharma
+  last_updated_on: 2023-06-02 11:38:08.000000000 Z
+- name: True Reply
+  description: No code solution for launching your voice applications in minutes
+  website_url: https://truereply.com
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: No Code Platforms
+  image_url: https://img.stackshare.io/service/25059/default_becf25bbff77980ec6ec8fcdcede7357242c937e.jpg
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: cURL
+  description: Command Line Tool and Library for Transferring Data With URLs
+  website_url: http://curl.haxx.se/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Transfer
+  image_url: https://img.stackshare.io/service/6552/curl-logo.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: Alt
+  description: A library for managing data within JavaScript applications
+  website_url: https://alt.js.org/
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3649/default_01276c9c0c79674b16f9b29216bd8cc7ce9b894d.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/docker-compose.yaml
+  detection_source: python-sdk/dev/docker-compose.yaml
+  last_updated_by: Pankaj Singh
+  last_updated_on: 2022-08-12 13:39:49.000000000 Z
+- name: Debian
+  description: The Universal Operating System
+  website_url: https://www.debian.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/1656/vd4gAekh.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/tests/benchmark/Dockerfile
+  detection_source: python-sdk/tests/benchmark/Dockerfile
+  last_updated_by: Daniel Imberman
+  last_updated_on: 2022-06-30 20:00:52.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk
+  detection_source: Repo Metadata
+- name: apache-airflow
+  description: Programmatically author
+  package_url: https://pypi.org/project/apache-airflow
+  version: '2.0'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20810/default_2f5e681bc003054d9b4d4dce47b5862e8bef9594.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Phani Kumar
+  last_updated_on: 2023-03-16 16:14:46.000000000 Z
+  vulnerabilities:
+  - name: Apache Airflow vulnerable to Privilege Context Switching Error
+    cve_id: CVE-2023-25754
+    cve_url: https://github.com/advisories/GHSA-jchm-fm4q-c2fp
+    detected_date: May 12
+    severity: critical
+    first_patched: 2.6.0
+  - name: Command Injection in Apache Airflow and Apache Airflow MySQL Provider
+    cve_id: CVE-2023-22884
+    cve_url: https://github.com/advisories/GHSA-c732-xvv8-g94c
+    detected_date: Jan 31
+    severity: critical
+    first_patched: 2.5.1
+  - name: Missing Authentication for Critical Function in Apache Airflow
+    cve_id: CVE-2021-38540
+    cve_url: https://github.com/advisories/GHSA-h88f-r7cw-8fv3
+    detected_date: Jun 22
+    severity: critical
+    first_patched: 2.1.3
+  - name: OS Command Injection in Apache Airflow
+    cve_id: CVE-2022-40189
+    cve_url: https://github.com/advisories/GHSA-rmf2-pwfq-h75j
+    detected_date: Nov 23
+    severity: critical
+    first_patched: 2.3.0
+  - name: OS Command Injection in Apache Airflow
+    cve_id: CVE-2022-38649
+    cve_url: https://github.com/advisories/GHSA-7wqf-h36w-47mc
+    detected_date: Nov 23
+    severity: critical
+    first_patched: 2.3.0
+  - name: OS Command Injection in Apache Airflow
+    cve_id: CVE-2022-41131
+    cve_url: https://github.com/advisories/GHSA-cm43-f2pv-6v68
+    detected_date: Nov 23
+    severity: high
+    first_patched: 2.3.0
+  - name: Apache Airflow may allow authenticated users who have been deactivated to
+      continue using the UI or API
+    cve_id: CVE-2022-41672
+    cve_url: https://github.com/advisories/GHSA-3q8r-f3pj-3gc4
+    detected_date: Oct 8
+    severity: high
+    first_patched: 2.4.1
+  - name: 'Apache Airflow: pickle deserialization vulnerability in XComs'
+    cve_id: CVE-2023-50943
+    cve_url: https://github.com/advisories/GHSA-c3c6-f2ww-xfr2
+    detected_date: Jan 25
+    severity: high
+    first_patched: 2.8.1
+  - name: Apache Airflow Execution with Unnecessary Privileges
+    cve_id: CVE-2023-39508
+    cve_url: https://github.com/advisories/GHSA-269x-pg5c-5xgm
+    detected_date: Aug 10
+    severity: high
+    first_patched: 2.6.0
+  - name: Apache Airflow denial of service vulnerability
+    cve_id: CVE-2023-37379
+    cve_url: https://github.com/advisories/GHSA-x2mh-8fmc-rqgh
+    detected_date: Aug 25
+    severity: high
+    first_patched: 2.7.0
+  - name: Apache Airflow vulnerable to OS Command Injection via example DAGs
+    cve_id: CVE-2022-40127
+    cve_url: https://github.com/advisories/GHSA-6pw3-8h9w-32gc
+    detected_date: Nov 16
+    severity: high
+    first_patched: 2.4.0
+  - name: OS Command injection in Apache Airflow
+    cve_id: CVE-2022-24288
+    cve_url: https://github.com/advisories/GHSA-3v7g-4pg3-7r6j
+    detected_date: Mar 2
+    severity: high
+    first_patched: 2.2.4
+  - name: Apache Airflow subject to Exposure of Sensitive Information
+    cve_id: CVE-2022-27949
+    cve_url: https://github.com/advisories/GHSA-fvw2-2pf7-77vw
+    detected_date: Nov 16
+    severity: high
+    first_patched: 2.3.1
+  - name: Apache Airflow Celery provider Insertion of Sensitive Information into Log
+      File vulnerability
+    cve_id: CVE-2023-46215
+    cve_url: https://github.com/advisories/GHSA-666g-rfc5-c9jv
+    detected_date: Nov 9
+    severity: high
+    first_patched: 2.7.0
+  - name: Apache Airflow Session Fixation vulnerability
+    cve_id: CVE-2023-40273
+    cve_url: https://github.com/advisories/GHSA-pm87-24wq-r8w9
+    detected_date: Aug 24
+    severity: high
+    first_patched: 2.7.0
+  - name: Improper Access Control in Apache Airflow
+    cve_id: CVE-2021-26559
+    cve_url: https://github.com/advisories/GHSA-ffw3-6mp6-jmvj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.1
+  - name: Cross-site Scripting in Apache Airflow
+    cve_id: CVE-2021-28359
+    cve_url: https://github.com/advisories/GHSA-3xxv-p78r-4fc6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.2
+  - name: Apache Airflow Improper Input Validation vulnerability
+    cve_id: CVE-2023-36543
+    cve_url: https://github.com/advisories/GHSA-3h4m-m55v-gx4m
+    detected_date: Jul 13
+    severity: moderate
+    first_patched: 2.6.3
+  - name: Apache Airflow Path Traversal vulnerability
+    cve_id: CVE-2023-22887
+    cve_url: https://github.com/advisories/GHSA-ggwr-4vr8-g7wv
+    detected_date: Jul 13
+    severity: moderate
+    first_patched: 2.6.3
+  - name: Apache Airflow Incorrect Authorization vulnerability
+    cve_id: CVE-2023-35908
+    cve_url: https://github.com/advisories/GHSA-2h84-3crq-vgfj
+    detected_date: Jul 13
+    severity: moderate
+    first_patched: 2.6.3
+  - name: Apache Airflow information disclosure vulnerability
+    cve_id: CVE-2022-46651
+    cve_url: https://github.com/advisories/GHSA-xvw9-3mhm-xjqq
+    detected_date: Jul 13
+    severity: moderate
+    first_patched: 2.6.3
+  - name: Improper Authentication in Apache Airflow
+    cve_id: CVE-2021-26697
+    cve_url: https://github.com/advisories/GHSA-fh37-cx83-q542
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.1
+  - name: Apache Airflow information exposure vulnerability
+    cve_id: CVE-2023-40712
+    cve_url: https://github.com/advisories/GHSA-mjqh-v5f2-g2mw
+    detected_date: Sep 13
+    severity: moderate
+    first_patched: 2.7.1
+  - name: Apache Airflow Improper Input Validation vulnerability
+    cve_id: CVE-2023-22888
+    cve_url: https://github.com/advisories/GHSA-5946-8p38-vffp
+    detected_date: Jul 21
+    severity: moderate
+    first_patched: 2.6.3
+  - name: Apache Airflow allows authenticated and DAG-view authorized users to modify
+      some DAG run detail values when submitting notes
+    cve_id: CVE-2023-47037
+    cve_url: https://github.com/advisories/GHSA-hm9r-7f84-25c9
+    detected_date: Nov 14
+    severity: moderate
+    first_patched: 2.7.3
+  - name: Apache Airflow Incorrect Authorization vulnerability
+    cve_id: CVE-2023-40611
+    cve_url: https://github.com/advisories/GHSA-wpg8-mf6h-gm92
+    detected_date: Sep 13
+    severity: moderate
+    first_patched: 2.7.1
+  - name: Apache Airflow vulnerable to Exposure of Sensitive Information to an Unauthorized
+      Actor
+    cve_id: CVE-2023-42781
+    cve_url: https://github.com/advisories/GHSA-r7x6-xfcm-3mxv
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 2.7.3
+  - name: OS Command Injection in Apache Airflow
+    cve_id: CVE-2022-40954
+    cve_url: https://github.com/advisories/GHSA-45r6-j3cc-6mxx
+    detected_date: Nov 23
+    severity: moderate
+    first_patched: 2.3.0
+  - name: Apache Airflow Improper Access Control vulnerability
+    cve_id: CVE-2023-50783
+    cve_url: https://github.com/advisories/GHSA-5938-79hg-xh3q
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 2.8.0
+  - name: Apache Airflow vulnerable to Exposure of Resource to Wrong Sphere
+    cve_id: CVE-2023-48291
+    cve_url: https://github.com/advisories/GHSA-8f57-wcmg-4jmh
+    detected_date: Dec 22
+    severity: moderate
+    first_patched: 2.8.0
+  - name: Missing Authorization in Apache Airflow
+    cve_id: CVE-2021-35936
+    cve_url: https://github.com/advisories/GHSA-m6h2-jx9v-58w6
+    detected_date: Aug 31
+    severity: moderate
+    first_patched: 2.1.2
+  - name: 'Apache Airflow: Incorrect Default Permissions in audit logs for Ops and
+      Viewers users'
+    cve_id: CVE-2024-26280
+    cve_url: https://github.com/advisories/GHSA-6xwf-xvf3-v459
+    detected_date: Mar 2
+    severity: moderate
+    first_patched: 2.8.2
+  - name: Apache Airflow vulnerable to sensitive information exposure when users list
+      warnings for all DAGs
+    cve_id: CVE-2023-42780
+    cve_url: https://github.com/advisories/GHSA-cgx2-rrmr-jx43
+    detected_date: Oct 17
+    severity: moderate
+    first_patched: 2.7.2
+  - name: 'Apache Airflow: DAG Code and Import Error Permissions Ignored'
+    cve_id: CVE-2024-27906
+    cve_url: https://github.com/advisories/GHSA-6v6w-h8m6-7mv2
+    detected_date: Mar 1
+    severity: moderate
+    first_patched: 2.8.2
+  - name: Apache Airflow Cross-site Scripting vulnerability
+    cve_id: CVE-2022-43982
+    cve_url: https://github.com/advisories/GHSA-h63r-9xxf-f2c7
+    detected_date: Nov 4
+    severity: moderate
+    first_patched: 2.4.2
+  - name: Apache Airflow Open Redirect vulnerability
+    cve_id: CVE-2022-43985
+    cve_url: https://github.com/advisories/GHSA-f9fq-78ch-4wmj
+    detected_date: Nov 4
+    severity: moderate
+    first_patched: 2.4.2
+  - name: Improper Privilege Management in apache-airflow
+    cve_id: CVE-2021-45230
+    cve_url: https://github.com/advisories/GHSA-4jh2-3c85-q67h
+    detected_date: Jan 29
+    severity: moderate
+    first_patched: 2.2.0
+  - name: Apache Airflow vulnerable to privilege escalation
+    cve_id: CVE-2023-42792
+    cve_url: https://github.com/advisories/GHSA-j3w8-2p2h-mrr9
+    detected_date: Oct 17
+    severity: moderate
+    first_patched: 2.7.2
+  - name: Cross site scripting in apache airflow
+    cve_id: CVE-2021-45229
+    cve_url: https://github.com/advisories/GHSA-65xw-pcqw-hjrh
+    detected_date: Mar 2
+    severity: moderate
+    first_patched: 2.2.4
+  - name: Apache Airflow Cross-site scripting due to incomplete fix for CVE-2020-13944
+    cve_id: CVE-2020-17515
+    cve_url: https://github.com/advisories/GHSA-86vp-x3pr-79rx
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.0.2
+  - name: Sensitive Information in Error Messages in Apache Airflow
+    cve_id: CVE-2023-25695
+    cve_url: https://github.com/advisories/GHSA-h6g5-wqqr-3mw3
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 2.5.2
+  - name: Apache Airflow vulnerable to sensitive information exposure
+    cve_id: CVE-2023-42663
+    cve_url: https://github.com/advisories/GHSA-32wr-qqw6-5mfp
+    detected_date: Oct 17
+    severity: moderate
+    first_patched: 2.7.2
+  - name: Apache Airflow missing Certificate Validation
+    cve_id: CVE-2023-39441
+    cve_url: https://github.com/advisories/GHSA-5f35-pq34-c87q
+    detected_date: Aug 25
+    severity: moderate
+    first_patched: 2.7.0
+  - name: Apache Airflow exposes arbitrary file content
+    cve_id: CVE-2022-38170
+    cve_url: https://github.com/advisories/GHSA-q8h9-pqcx-59hw
+    detected_date: Sep 17
+    severity: moderate
+    first_patched: 2.3.4
+  - name: 'Apache Airflow: Bypass permission verification to read code of other dags'
+    cve_id: CVE-2023-50944
+    cve_url: https://github.com/advisories/GHSA-vm5m-qmrx-fw8w
+    detected_date: Jan 25
+    severity: moderate
+    first_patched: 2.8.1
+  - name: Apache Airflow vulnerable to stored Cross-site Scripting
+    cve_id: CVE-2023-29247
+    cve_url: https://github.com/advisories/GHSA-vcf6-3wv2-5vcr
+    detected_date: May 9
+    severity: moderate
+    first_patched: 2.6.0
+  - name: Apache Airflow Contains Open Redirect
+    cve_id: CVE-2022-45402
+    cve_url: https://github.com/advisories/GHSA-rg94-84xj-7gq3
+    detected_date: Nov 27
+    severity: moderate
+    first_patched: 2.4.3
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.30.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  detection_source: python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  last_updated_by: Utkarsh Sharma
+  last_updated_on: 2023-06-02 11:38:08.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+  - name: Unintended leak of Proxy-Authorization header in requests
+    cve_id: CVE-2023-32681
+    cve_url: https://github.com/advisories/GHSA-j8r2-6x86-q33q
+    detected_date: May 23
+    severity: moderate
+    first_patched: 2.31.0
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/project/SQLAlchemy
+  version: 1.3.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Daniel Imberman
+  last_updated_on: 2022-11-30 21:48:53.000000000 Z
+- name: attrs
+  description: Classes Without Boilerplate
+  package_url: https://pypi.org/project/attrs
+  version: '20.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19857/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Kaxil Naik
+  last_updated_on: 2022-09-08 14:29:03.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  detection_source: python-sdk/dev/scripts/integration_test_scripts/requirements.txt
+  last_updated_by: Utkarsh Sharma
+  last_updated_on: 2023-06-02 11:38:08.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 1.3.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Utkarsh Sharma
+  last_updated_on: 2023-02-16 11:41:20.000000000 Z
+- name: pyarrow
+  description: Python library for Apache Arrow
+  package_url: https://pypi.org/project/pyarrow
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20366/default_20f72d65682b6cad9939bcf162d0ef14fced900c.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Utkarsh Sharma
+  last_updated_on: 2023-02-16 11:41:20.000000000 Z
+- name: python-frontmatter
+  description: Parse and manage posts with YAML
+  package_url: https://pypi.org/project/python-frontmatter
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Ian Buss
+  last_updated_on: 2023-05-25 12:26:37.000000000 Z
+- name: smart-open
+  description: Utils for streaming large files
+  package_url: https://pypi.org/project/smart-open
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ahnsv/astro-sdk/blob/main/python-sdk/pyproject.toml
+  detection_source: python-sdk/pyproject.toml
+  last_updated_by: Rajath
+  last_updated_on: 2023-01-05 07:53:19.000000000 Z
